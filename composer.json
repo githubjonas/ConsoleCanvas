@@ -1,6 +1,8 @@
 {
     "autoload": {
         "psr-4": {"GII\\": "src/GII/"}
+    },
+    "require": {
+        "ext-gd": "^7.2"
     }
 }
-
