@@ -1,6 +1,19 @@
 # ConsoleCanvas
 ConsoleCanvas emulates a canvas which makes it possible to "draw" on any console terminal.
 
+[Basic shapes](https://github.com/githubjonas/ConsoleCanvas/blob/master/src/examples/basic.php)
+
+![Basic Example](https://github.com/githubjonas/ConsoleCanvas/blob/master/doc/console-example-basic.png)
+
+[3D Cube](https://github.com/githubjonas/ConsoleCanvas/blob/master/src/examples/3dcube.php)
+
+![3D Cube Example](https://github.com/githubjonas/ConsoleCanvas/blob/master/doc/3dcube-2.gif)
+
+The **-\*r A g E\*-** Python Console demo is written using the `ConsoleCanvas` python class.
+Here's the demo running !
+
+[![Rage Console 2019](https://img.youtube.com/vi/NrXqxxfYeSk/0.jpg)](https://www.youtube.com/watch?v=NrXqxxfYeSk)
+
 ## PHP Usage
     // Instance a new canvas
     $canvas = new ConsoleCanvas();
@@ -41,15 +54,6 @@ ConsoleCanvas emulates a canvas which makes it possible to "draw" on any console
     $canvas->clearColor();
     $canvas->moveCursor(0, $h - 1);
     
-[Basic shapes](https://github.com/githubjonas/ConsoleCanvas/blob/master/src/examples/basic.php)
-
-![Basic Example](https://github.com/githubjonas/ConsoleCanvas/blob/master/doc/console-example-basic.png)
-
-### Example: animated canvas
-[3D Cube](https://github.com/githubjonas/ConsoleCanvas/blob/master/src/examples/3dcube.php)
-
-![3D Cube Example](https://github.com/githubjonas/ConsoleCanvas/blob/master/doc/3dcube-2.gif)
-
 ## Python usage
     from GII.ConsoleCanvas import ConsoleCanvas
     
@@ -182,5 +186,3 @@ Sets pen color to selected color.
 Get width of canvas
 ###### return
 `int` Width of canvas in pixels
-
-![3D Cube Example](https://github.com/githubjonas/ConsoleCanvas/blob/master/doc/3dcube-2.gif)
