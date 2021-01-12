@@ -10,9 +10,15 @@ ConsoleCanvas emulates a canvas which makes it possible to "draw" on any console
 ![3D Cube Example](https://github.com/githubjonas/ConsoleCanvas/blob/master/doc/3dcube-2.gif)
 
 The **-\*r A g E\*-** Python Console demo is written using the `ConsoleCanvas` python class.
-Here's the demo running !
+Click on the image below to see the demo running !
 
 [![Rage Console 2019](https://img.youtube.com/vi/NrXqxxfYeSk/0.jpg)](https://www.youtube.com/watch?v=NrXqxxfYeSk)
+
+## Try it!
+1. Clone this repo
+2. Run example script, for example:
+######
+    php src/examples/basic.php
 
 ## PHP Installation
 composer.json
