@@ -1,4 +1,7 @@
 {
+    "name": "gii/consolecanvas",
+    "description" : "PHP library for console canvas graphics",
+    "type": "library",
     "autoload": {
         "psr-4": {"GII\\": "src/GII/"}
     },
