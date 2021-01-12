@@ -14,7 +14,22 @@ Here's the demo running !
 
 [![Rage Console 2019](https://img.youtube.com/vi/NrXqxxfYeSk/0.jpg)](https://www.youtube.com/watch?v=NrXqxxfYeSk)
 
+## PHP Installation
+composer.json
+
+    "require": {
+        "gii/consolecanvas": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "https://github.com/githubjonas/ConsoleCanvas"
+        }
+    ]
+
 ## PHP Usage
+    use GII\ConsoleCanvas;
+    
     // Instance a new canvas
     $canvas = new ConsoleCanvas();
     
